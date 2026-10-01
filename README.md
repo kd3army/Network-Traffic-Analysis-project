@@ -77,15 +77,15 @@ Captures connectionless UDP datagram exchanges across local active services.
 
 #### Stealth SYN Scan Probes (`nmap -sS`)
 Highlights bursts of `SYN` packets without matching `ACK` responses across probed ports.
-![Nmap Scan SYN Probes](Screenshots/02_nmap_scan_traffic.png)
+![Nmap Scan SYN Probes](Screenshots/01_nmap_scan_traffic.png)
 
 #### TCP Connect Scan Behavior (`nmap -sT`)
 Demonstrates full 3-way TCP handshakes established on open vs closed ports during enumeration.
-![Nmap Connect Scan Analysis](Screenshots/01_nmap_scan_traffic.png)
+![Nmap Connect Scan Analysis](Screenshots/03_nmap_scan_traffic.png)
 
 #### Closed Port Reset Responses (`RST`)
 Shows immediate TCP `RST, ACK` flags returned by closed target ports (21, 22, 80, 443).
-![Nmap Scan Reset Flags](Screenshots/03_nmap_scan_traffic.png)
+![Nmap Scan Reset Flags](Screenshots/02_nmap_scan_traffic.png)
 
 ---
 
